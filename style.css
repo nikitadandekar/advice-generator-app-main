@@ -1,0 +1,40 @@
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+.box {
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+  background-color: hsl(217, 19%, 24%);
+  margin-top: 300px;
+  margin-left: 600px;
+  position: relative;
+}
+.box h3 {
+  color: hsl(150, 100%, 66%);
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.box p {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.circle {
+  position: absolute;
+  bottom: -7%;
+  right: 45%;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  background-color: hsl(150, 100%, 66%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2 {
+  margin-left: 85px;
+}
